@@ -1,0 +1,23 @@
+GET http://localhost:3001/movies?duration=90&genre=Adventure&genre=Comedy&genre=Crime HTTP/1.1
+
+###
+GET http://localhost:3001/movies?genre=Adventure&genre=Comedy&genre=Animation HTTP/1.1
+
+###
+GET http://localhost:3001/movies?genre=adventure HTTP/1.1
+
+###
+GET http://localhost:3001/movies?genre=Adventure HTTP/1.1
+
+###
+GET http://localhost:3001/movies?duration=1200 HTTP/1.1
+
+###
+GET http://localhost:3001/movies?duration=90 HTTP/1.1
+
+
+###
+GET http://localhost:3001/movies HTTP/1.1
+
+###
+GET http://localhost:3001/blabla HTTP/1.1

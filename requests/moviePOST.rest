@@ -1,0 +1,41 @@
+POST http://localhost:3001/movies HTTP/1.1
+Content-Type: application/json
+
+{
+    "genres" : ["Comedy"],
+    "title" : "My Favorite Movie",
+    "year" : 1989,
+    "runtime" : 120,
+    "director" : "Director McArtist",
+    "actors" : "Actress DeBeautiful, Actor Von Muscles, Meryl Streep",
+    "plot" : "Characterina (Actress DeBeautiful) falls in love with Heron (Actor Von Muscles) and is advised against relationship by Meryl Streep (herself)",
+    "posterUrl" : "https://i.pinimg.com/originals/6f/d7/c3/6fd7c39c68f4fc5276ffd495e45ef78a.jpg"
+}
+
+###
+POST http://localhost:3001/movies HTTP/1.1
+Content-Type: application/json
+
+{
+    "title" : "My Favorite Movie",
+    "year" : 1989,
+    "runtime" : 120,
+    "director" : "Director McArtist",
+    "actors" : "Actress DeBeautiful, Actor Von Muscles, Meryl Streep",
+    "plot" : "Characterina (Actress DeBeautiful) falls in love with Heron (Actor Von Muscles) and is advised against relationship by Meryl Streep (herself)",
+    "posterUrl" : "https://i.pinimg.com/originals/6f/d7/c3/6fd7c39c68f4fc5276ffd495e45ef78a.jpg"
+}
+
+###
+POST http://localhost:3001/movies HTTP/1.1
+Content-Type: application/json
+
+{
+    "genres" : "Comedy",
+    "title" : "",
+    "year" : 1989,
+    "director" : "Director McArtist",
+    "actors" : "Actress DeBeautiful, Actor Von Muscles, Meryl Streep",
+    "plot" : "Characterina (Actress DeBeautiful) falls in love with Heron (Actor Von Muscles) and is advised against relationship by Meryl Streep (herself)",
+    "posterUrl" : "https://i.pinimg.com/originals/6f/d7/c3/6fd7c39c68f4fc5276ffd495e45ef78a.jpg"
+}
